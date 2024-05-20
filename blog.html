@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Yoga Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>Our Certificates & Programs</h1>
+</section>
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Programs</h2>
+            <p>The most widely recognized accrediting body for yoga teacher training programs is the Yoga Alliance. Yoga Alliance sets rigorous standards for yoga teacher training and maintains a registry of certified yoga teachers and schools. Schools registered with Yoga Alliance (Registered Yoga Schools or RYS) follow a curriculum that meets these standards, ensuring a high quality of education.</p>
+            <br>
+            <p>A typical yoga certification program includes several key components:<br>
+
+                1. Asanas (Postures): Detailed instruction and practice of yoga postures, including proper alignment, modifications, and adjustments.<br>
+                2. Pranayama (Breathing Techniques): Techniques for controlling and enhancing the breath, which is considered vital for overall health and effective yoga practice.<br>
+                3. Anatomy and Physiology: Understanding the human body, its functions, and how yoga affects different systems.<br>
+                4. Yoga Philosophy: Study of ancient texts such as the Yoga Sutras of Patanjali, Bhagavad Gita, and other philosophical writings.<br>
+                5. Teaching Methodology: Skills for instructing students, creating lesson plans, managing a class, and effective communication.<br>
+                6. Practicum: Hands-on teaching practice under supervision to build confidence and competence in instructing yoga classes.</p>
+                <br>
+                <p>Benefits of Yoga Certification<br>
+                    1. Credibility: A yoga certificate provides credibility and demonstrates that the instructor has received formal training and adheres to professional standards.<br>
+                    2. Employment Opportunities: Many yoga studios, gyms, and wellness centers require instructors to have a certification. It opens doors to teaching opportunities worldwide.<br>
+                    3. Personal Development: The process of earning a certification often leads to personal growth, increased self-awareness, and a deeper understanding of yoga.<br>
+                    4. Community and Networking: Yoga teacher training programs create a community of like-minded individuals, providing support and networking opportunities.</p><br>
+                    <p>Continuing Education<br>
+                        Certified yoga teachers are encouraged to continue their education through workshops, additional certifications, and advanced training. This not only enhances their skills and knowledge but also keeps them updated with the latest developments in the field of yoga.</p><br>
+                    <p>Conclusion<br>
+                        A yoga certificate is more than just a piece of paper; it is a testament to one's dedication and expertise in the practice of yoga. Whether for personal enrichment or professional advancement, obtaining a yoga certification can be a transformative experience, enriching both the practitioner’s life and the lives of those they teach.<br>
+                    </p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+        </div>
+        <div class="blog-right">
+            <h3>Content</h3>
+            <div>
+                <span>Instructional Posts</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Educational Content</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Personal Experiences and Stories</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Wellness and Lifestyle</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Advanced Practices</span>
+                <span>2</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our enriching yoga class, running since 2018, enhances flexibility, reduces stress, and fosters a balanced, mindful lifestyle.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/KayayogaClasses/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/kayayogaclasses/"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-whatsapp"></i>
+        <a href="https://maps.app.goo.gl/i7gpTmpdC8PEcjLN8"><i class="fa fa-map-marker"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shubham Prasad</p>
+</section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

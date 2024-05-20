@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Yoga Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>About Us</h1>
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Kaya Yoga Classes</h1>
+            <p>Our yoga class offers a sanctuary for holistic wellness. Led by experienced instructors, we delve into diverse practices, fostering strength, flexibility, and inner peace. <br>Amidst serene surroundings, students explore mindful movement and breathwork, enriching their physical, mental, and spiritual well-being. Join us and embark on a transformative journey.</p>
+            <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about2.jpg">
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our enriching yoga class, running since 2018, enhances flexibility, reduces stress, and fosters a balanced, mindful lifestyle.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/KayayogaClasses/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/kayayogaclasses/"><i class="fa fa-instagram"></i></a>
+        <i class="fa fa-whatsapp"></i>
+        <a href="https://maps.app.goo.gl/i7gpTmpdC8PEcjLN8"><i class="fa fa-map-marker"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shubham Prasad</p>
+</section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
